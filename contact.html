@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Tech Learning Hub</title>
+     <meta name="description" content="Contact Tech Learning Hub for questions, suggestions and technology learning information.">
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input,
+textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+        }
+
+        .content {
+            background-color: white;
+            max-width: 700px;
+            margin: 30px auto;
+            padding: 30px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .contact-box {
+            background-color: #f4f4f4;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Contact Us</h1>
+        <p>Tech Learning Hub</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="learning.html">Learning</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="content">
+
+        <h2>Get in Touch</h2>
+
+        <p>
+            If you have any questions or suggestions,
+            you can contact us.
+        </p>
+
+        <div class="contact-box">
+            <h3>Email</h3>
+            <p>AHMAD ZAMAN<P>
+            <p>ahmadzaman6199@gmail.com</p>
+        </div>
+
+        <div class="contact-box">
+            <h3>Website</h3>
+            <p>Tech Learning Hub</p>
+        </div>
+<div class="contact-box">
+    <h3>Send Us a Message</h3>
+
+    <form>
+        <input type="text" placeholder="Your Name" required>
+
+        <input type="email" placeholder="Your Email" required>
+
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Tech Learning Hub</p>
+    </footer>
+
+</body>
+</html>
